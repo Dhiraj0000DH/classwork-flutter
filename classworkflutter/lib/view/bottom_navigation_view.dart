@@ -1,8 +1,7 @@
 import 'package:classworkflutter/view/bottom_view/about.dart';
 import 'package:classworkflutter/view/bottom_view/cart.dart';
-import '../view/bottom_view/home.dart';
+import 'package:classworkflutter/view/bottom_view/home.dart';
 import 'package:classworkflutter/view/bottom_view/profile.dart';
-
 import 'package:flutter/material.dart';
 
 class BottomNavigationView extends StatefulWidget {
@@ -19,7 +18,7 @@ class _BottomNavigationViewState extends State<BottomNavigationView> {
     const HomeScreen(),
     const CartScreen(),
     const ProfileScreen(),
-    const AboutScreen(),
+    const AboutView(),
   ];
   @override
   Widget build(BuildContext context) {

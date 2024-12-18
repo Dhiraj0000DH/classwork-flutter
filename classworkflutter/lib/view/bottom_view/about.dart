@@ -1,23 +1,29 @@
 import 'package:flutter/material.dart';
 
-class AboutScreen extends StatefulWidget {
-  const AboutScreen({super.key});
+class AboutView extends StatelessWidget {
+  const AboutView({super.key});
 
-  @override
-  State<AboutScreen> createState() => _AboutScreenState();
-}
-
-class _AboutScreenState extends State<AboutScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('About Us'),
-      ),
-      body: const Center(
-        child: Text(
-          'This is the About Us screen.',
-          style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+      body: Center(
+        // Centers the content on the screen
+        child: Column(
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(10.0),
+              child: TextFormField(
+                decoration: const InputDecoration(
+                  hintText: 'Enter text',
+                ),
+              ),
+            ),
+            const SizedBox(height: 16),
+            ElevatedButton(
+              onPressed: () {},
+              child: const Text('Submit'),
+            ),
+          ],
         ),
       ),
     );

@@ -1,6 +1,5 @@
-import 'package:classworkflutter/common/my_card.dart';
-import 'package:classworkflutter/common/mysnackbar.dart';
-
+import 'package:classworkflutter/core/common/my_card.dart';
+import 'package:classworkflutter/core/common/mysnackbar.dart';
 import 'package:flutter/material.dart';
 
 class DynamicCardView extends StatelessWidget {
