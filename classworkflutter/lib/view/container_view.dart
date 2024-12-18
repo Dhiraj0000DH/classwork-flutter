@@ -13,8 +13,6 @@ class ContainerView extends StatelessWidget {
           width: 200, //double.infininity
           height: 200,
           alignment: Alignment.center,
-          // color: Colors.amberAccent,
-          child: const Text('I m a Container'),
           decoration: BoxDecoration(
               shape: BoxShape.circle,
               color: Colors.amberAccent,
@@ -22,6 +20,8 @@ class ContainerView extends StatelessWidget {
                 color: Colors.black,
                 width: 2,
               )),
+          // color: Colors.amberAccent,
+          child: const Text('I m a Container'),
         ),
       )),
     );

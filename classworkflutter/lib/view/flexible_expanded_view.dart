@@ -15,7 +15,7 @@ class FlexibleExpandedView extends StatelessWidget {
               flex: 2, // Takes 2 parts of the available space
               child: Container(
                 color: Colors.blue,
-                child: Center(
+                child: const Center(
                   child: Text(
                     'Flexible Container',
                     style: TextStyle(color: Colors.white, fontSize: 20),
@@ -28,7 +28,7 @@ class FlexibleExpandedView extends StatelessWidget {
               flex: 3, // Takes 3 parts of the available space
               child: Container(
                 color: Colors.green,
-                child: Center(
+                child: const Center(
                   child: Text(
                     'Expanded Container',
                     style: TextStyle(color: Colors.white, fontSize: 20),
